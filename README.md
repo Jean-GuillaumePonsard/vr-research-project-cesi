@@ -26,7 +26,9 @@ Symptomes psychologiques
 ## Protocolar questions
 - Who?
 - With who?
+- What ?
 - Why?
 - When?
 - By which means?
+- Result ?
 - Are there some research that used this one?
