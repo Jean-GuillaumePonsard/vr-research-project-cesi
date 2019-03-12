@@ -32,3 +32,9 @@ Symptomes psychologiques
 - By which means?
 - Result ?
 - Are there some research that used this one?
+
+## Context elements
+ - Accessibility of VR today
+ - What is the state of VR rehabilitation today ?
+ - Evolution since the 90s
+ - Why it is better to use VR for it now ? (Why it is good ?)
