@@ -23,7 +23,7 @@ Memory games have proved to be efficient in rehabilitating of brain functions lo
 As we do not have the required medical knowledge, we will demonstrate our statements with casual exercices.  
 These exercises train the same parts of brain and muscles as some rehabilitation trainings %\cite{IL MANQUE UNE CITATION ICI}.
 Thus we can admit the benefits brought up in the medical field too.
-\\
+\\  
 
 The Virtual Reality (VR) technology is an interactive computer-generated experience taking place in a simulated environment. 
 Nowadays, the VR technology is composed of a head-mounted display and 3D audio headphones.
@@ -220,18 +220,87 @@ However, there is still work to do because, despite the number of studies about 
     %- Speed : How long does it take  for the user to reproduce the sequence (comparing to the actual duration of the original sequence) ?
     %- Efficiency: How long is the sequence remembered by the patient ? Difference between the first session and the Nth session.
     %- Accessibility :  How easy it is to install, and play the game ? To record the data ?
+    We now analyze the data from all of the tests we run during this experiment, displayed in different kinds of graphics \\
+    The box plot graphics, althought based on all of the test subjects, only highlight 50\% of them. Those 50\% were chosen because they are close to the median value. \\   
+    Indeed,the two colored boxes represent the interquartile range (or middle 50\%), which is a robust statistical dispersion measure, which helps to avoid having too much dispersion when analysing data. Thus, it allows us to get a more representative point of view of the results obtained during our tests. 
 
+    % - efficiency
+
+    We begin by looking into the memory performances at different times of the experiment. Indeed, if the training is successful, we should see an improvement in the amount of color the test subject is able to memorize before finishing the game.
+    \\
+    First, we analyze the number of colors memorized on the short term, which means during the first session of the experiment (for both VR and Physical game).\\
     
-    %speed    
-    We will measure the speed of action because it is one of the main statistics we want to improve when rehabilitating. 
-    We will measure here the physical speed, which can be defined by the quickness of movement of the hand toward the zone to hover.
-    If the training is successful, we should see an improvement in the patient's speed of execution of the different exercises.
+    % VR
+
+        % box plot
+        \begin{figure}
+            \includegraphics[scale=0.74]{graphics/boxplot-vr-firstandsecondtest.png}
+            \caption{Box plots of the first and second test of the first VR session}
+        \end{figure}
+
+        % TODO C'est un copier coller du même paragraphe pour le physique pour conserver sa forme. Il faut le modifier avec les valeurs de CE graphique
+        This box plot graphic shows us, for each session, the range of levels reached. We see two boxes on each side of the median value of this range. \\
+        For the first session the subjects complete between 3 and 13 levels during the game. The median has a value of 8, and 25\% of the chosen subjects reach between the 6th and
+        the 8th level while the other 25\% reach between the 8th and the 10th level. \\
+        During the second session, we see that the range of levels completed is from 3 to 11. The median value is now 6, and while 25\% of the subjects complete between the 6th and the 8th level,
+        the other 25\% only reached either the 5th or the 6th level. \\
+
+        % moyenne + mediane
+
+        % Nbr de personnes/score
+        \begin{figure}
+            \includegraphics[scale=0.74]{graphics/bargraph-vr-nbtestsujbectperlevel.png}
+            \caption{Number of test subjects by levels reached for the first VR session}
+        \end{figure}
+
+        % Progression
+        \begin{figure}
+            \includegraphics[scale=0.74]{graphics/rsi-vr.png}
+            \caption{Progession of the test subjects between the two tests for the first VR session}
+        \end{figure}
+
+    % Physique
+                    
+        % box plot
+        \begin{figure}
+            \includegraphics[scale=0.74]{graphics/boxplot-p-firstandsecondtest.png}
+            \caption{Box plots of the first and second test of the first physical session}
+        \end{figure}
+        
+        This box plot graphic shows us, for each session, the range of levels reached. We see two boxes on each side of the median value of this range. \\
+        For the first session the subjects complete between 3 and 13 levels during the game. The median has a value of 8, and 25\% of the chosen subjects reach between the 6th and
+        the 8th level while the other 25\% reach between the 8th and the 10th level. \\
+        During the second session, we see that the range of levels completed is from 3 to 11. The median value is now 6, and while 25\% of the subjects complete between the 6th and the 8th level,
+        the other 25\% only reached either the 5th or the 6th level. \\
+
+        % TODO justification: Indeed, we can see that 30 percents (6 test subjects) failed right after the 5th level [show graph]
+
+        % TODO Conclude
+
+        % moyenne + mediane
+
+        % Nbr de personnes/score
+        \begin{figure}
+            \includegraphics[scale=0.74]{graphics/bargraph-p-nbtestsujbectperlevel.png}
+            \caption{Number of test subjects by levels reached for the first physical session}
+        \end{figure}
+        
+        % Progression
+        \begin{figure}
+            \includegraphics[scale=0.74]{graphics/rsi-p.png}
+            \caption{Progession of the test subjects between the two tests for the first physical session}
+        \end{figure}
+    
+        
+
+    Then, we look into the same data but on the long term : For both session. \\
+    Finally, we compare the data for the two different technologies used in order to see which is the best learning technology. \\
+
+    %- Speed
+    The second part of this analysis will be about the speed of execution. \\
+    If the training is successful, we should see an improvement in the test subject's speed of execution of the different exercises.
     \\
 
-    %efficiency
-    We will also measure the mental speed, or efficiency of the training. 
-    If the training is successful, we should see an improvement in the amount of color the patient is able to memorize before finishing the game.
-    \\
 
     %accessibility
     The training, supposed to be done at home by anyone, should be easy, from the setup of the environment to the actual beggining of the game. 
